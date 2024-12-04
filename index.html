@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقهى الواحة - مذاق وأجواء مميزة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home">الرئيسية</a>
+        <a href="#menu">القائمة</a>
+        <a href="#reservation">حجز</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>مقهى الواحة</h1>
+            <p>مذاقات أصيلة وأجواء مميزة</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container">
+        <h2 style="text-align: center; margin-bottom: 30px;">قائمة الطعام والمشروبات</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="image/image2.png" alt="قهوة عربية">
+                <div class="menu-card-content">
+                    <h3>قهوة عربية</h3>
+                    <p>قهوة تقليدية محمصة بعناية</p>
+                    <p>5 شيكل</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="image/image3.jpg" alt="كعك بالتمر">
+                <div class="menu-card-content">
+                    <h3>كعك بالتمر</h3>
+                    <p>حلوى شرقية تقليدية</p>
+                    <p>2 شيكل</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="image/image4.jpg" alt="شاي بالنعناع">
+                <div class="menu-card-content">
+                    <h3>شاي بالنعناع</h3>
+                    <p>شاي طازج مع أوراق النعناع</p>
+                    <p>3 شيكل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="container">
+        <form class="reservation-form">
+            <h2 style="text-align: center; margin-bottom: 20px;">احجز طاولتك</h2>
+            <input type="text" placeholder="الاسم" required>
+            <input type="tel" placeholder="رقم الهاتف" required>
+            <input type="date" placeholder="التاريخ" required>
+            <select required>
+                <option value="">عدد الأشخاص</option>
+                <option value="1">1-2 أشخاص</option>
+                <option value="3">3-4 أشخاص</option>
+                <option value="5">5 أشخاص وأكثر</option>
+            </select>
+            <textarea placeholder="أي ملاحظات إضافية"></textarea>
+            <button type="submit">تأكيد الحجز</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="contact-info">
+            <h2>تواصل معنا</h2>
+            <p>هاتف: 06-5555555</p>
+            <p>البريد الإلكتروني: info@alwahaacafe.com</p>
+            <p>ساعات العمل: من 8 صباحاً حتى 12 ليلاً</p>
+
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3389.2532878216164!2d35.8407545153543!3d31.963871981226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDU3JzUAIE4gMzXCsDUwJzM5LjciIEU!5e0!3m2!1sar!2sjo!4v1629789456789!5m2!1sar!2sjo" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 مقهى الواحة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
